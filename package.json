@@ -1,12 +1,21 @@
 {
-  "name": "grigio-keyboards",
-  "version": "0.1.0",
-  "private": true,
+  "name": "@mygrigio/keyboards",
+  "version": "0.1.2",
+  "private": false,
+  "main": "./dist/grigio.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name grigio ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"

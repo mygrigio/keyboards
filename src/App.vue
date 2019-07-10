@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <NumberKeyboard :show="true"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import NumberKeyboard from './components/NumberKeyboard'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    NumberKeyboard
   }
 }
 </script>
