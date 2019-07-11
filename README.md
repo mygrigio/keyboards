@@ -27,7 +27,7 @@ export default{
     },
     computed: {
         str() {
-        return this.input.join("");
+            return this.input.join("");
         }
     },
     methods: {
@@ -35,12 +35,12 @@ export default{
             switch (value) {
                 case "DEL":
                     this.input.pop();
-                break;
+                    break;
                 case "OK":
-                this.showKeyboard = false;
-                break;
+                    this.showKeyboard = false;
+                    break;
                 default:
-                this.input.push(value);
+                    this.input.push(value);
                 break;
             }
         },
