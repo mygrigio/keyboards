@@ -1,6 +1,6 @@
 {
   "name": "@mygrigio/keyboards",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": false,
   "main": "./dist/grigio.common.js",
   "scripts": {
@@ -9,6 +9,10 @@
     "build-bundle": "vue-cli-service build --target lib --name grigio ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mygrigio/keyboards"
+  },  
   "keywords": [
     "keyboard",
     "vuejs",
