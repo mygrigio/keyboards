@@ -2,28 +2,15 @@
 
 ## Project setup
 ```
-npm install
+npm install --save @mygrigio/keyboards
 ```
 
-### Compiles and hot-reloads for development
+### Import to your main js file
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+import '@mygrigio/keyboards'
+import '@mygrigio/keyboards/dist/grigio.css'
 ```
 
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
