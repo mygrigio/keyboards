@@ -1,5 +1,7 @@
 # grigio-keyboards
 
+![Project Image](https://repository-images.githubusercontent.com/196234447/bcb3fe00-a3ed-11e9-8f8f-095a6495d43b)
+
 ## Project setup
 ```
 npm install --save @mygrigio/keyboards
