@@ -1,7 +1,7 @@
 <template>
     <div class="keyboard" :class="{'show':show}">
         <div class="key-area">
-            <div class="key" v-for="(item,index) in keyList" :key="index" 
+            <div class="grigio-numberic-key" v-for="(item,index) in keyList" :key="index" 
                 :class="{
                     'transparent':(!item.value || item.value=='del'),
                     'del':item.value=='del',
@@ -88,7 +88,7 @@
        flex-wrap: wrap; 
        justify-content: flex-end;
     }
-    .key{
+    .grigio-numberic-key{
         width:33.3333%;
         height:80px;
         line-height: 80px;
@@ -101,13 +101,13 @@
         text-align: center;
         color: #2c3e50;
     }
-    .key:active{
+    .grigio-numberic-key:active{
         background: #F8F8FF;
     }
-    .key.transparent{
+    .grigio-numberic-key.transparent{
         background:transparent;
     }
-    .key.del{
+    .grigio-numberic-key.del{
         background-image: url("./../assets/del.png");
         content: '';
         background-size: 30px 30px;
@@ -115,7 +115,7 @@
         background-position: center center;
         text-indent:-999px;
     }
-    .key.login{
+    .grigio-numberic-key.login{
         background-color: transparent;
     }
     .b-1px,
