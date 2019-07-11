@@ -1,6 +1,6 @@
 {
   "name": "@mygrigio/keyboards",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "main": "./dist/grigio.common.js",
   "scripts": {

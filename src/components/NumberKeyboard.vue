@@ -3,8 +3,8 @@
         <div class="key-area">
             <div class="grigio-numberic-key" v-for="(item,index) in keyList" :key="index" 
                 :class="{
-                    'transparent':(!item.value || item.value=='del'),
-                    'del':item.value=='del',
+                    'transparent':(!item.value || item.value=='DEL'),
+                    'del':item.value=='DEL',
                     'login' :item.value=='login' ,
                     'b-1px-t':true,
                     'b-1px-r':(index+1)%3!=0
@@ -37,9 +37,9 @@
                     {key:7,value:"7"},
                     {key:8,value:"8"},
                     {key:9,value:"9"},
-                    {key:"ok",value:"ok"},
+                    {key:"OK",value:"OK"},
                     {key:0,value:"0"},
-                    {key:"del",value:'del'}
+                    {key:"DEl",value:'DEL'}
                 ]
             }
         },
@@ -50,7 +50,7 @@
                 }
             },
             keyText(key){
-                if(key != 'del')
+                if(key != 'DEL')
                     return key
             }
         }
